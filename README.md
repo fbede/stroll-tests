@@ -4,8 +4,11 @@
 This is what happens per region;
 
 Question 1 is assigned todays date -> users view question 1 -> interval passes
+
 Question 2 is assigned todays date -> users view question 2 -> interval passes
+
 Question N is assigned todays date -> users view question N -> interval passes
+
 Question 1 is assigned todays date again (because all questions have been assigned and question 1 has the oldest `last assignment date`) -> users view question 1 (because the endpoint fetches the questions with the latest date for the user) -> interval passes.
 
 ## In Detail
