@@ -11,4 +11,7 @@ export class Question {
 
   @Column({enum: Regions, nullable : true})
   region: Regions;
+
+  @Column({type: 'datetime', nullable: true})
+  lastAssigned: Date;
 }

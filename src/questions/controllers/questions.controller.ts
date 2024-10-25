@@ -1,5 +1,5 @@
 import { BadRequestException, Body, Controller, Delete, Get, Param, ParseArrayPipe, Post } from '@nestjs/common';
-import { QuestionsService } from './questions.service';
+import { QuestionsService } from '../services/questions.service';
 import { ApiBody, ApiTags } from '@nestjs/swagger';
 
 @ApiTags('Questions')
