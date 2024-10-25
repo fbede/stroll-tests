@@ -91,7 +91,7 @@ export class AssignedQuestionService {
                     lastAssigned: new Date()
                 })
             }else{
-                this.logger.error("No questions available in db");    
+                this.logger.error(`No questions for ${region} available in db`);    
             }
        }
     }
